@@ -44,5 +44,5 @@ router.get('/myOrder',async(req,res)=>{
     }catch(e){
 res.status(500).json({msg:e})
     }
-})
+});
 module.exports = router;
